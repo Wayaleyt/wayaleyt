@@ -327,20 +327,20 @@ def main():
     if qq == 1:
         print('Определитель : ', determinant(matrix), '\n')
     elif qq == 2:
-        dd = bool(input('По часовой сстрелке - True, против часовой стрелки - False '))
+        dd = bool(input('По часовой стрелке - True, против часовой стрелки - False '))
         print_matrix(turn(matrix, dd))
     elif qq == 3:
         z = int(input('Стобцы - 1, Строки - 2'))
-        dd = bool(input('по возрастаниюе - True, по убыванию - False '))
+        dd = bool(input('по возрастанию - True, по убыванию - False '))
         print_matrix(sort(matrix, z, dd))
     elif qq == 4:
-        dd = bool(input('По возрастаниюе - True, по убыванию - False '))
+        dd = bool(input('По возрастанию - True, по убыванию - False '))
         print_matrix(sortall(matrix, dd))
     elif qq == 5:
         print('Замена элементов местами \n')
         print_matrix(minmax(matrix))
     elif qq == 6:
-        dd = bool(input('по возрастаниюе - True, по убыванию - False '))
+        dd = bool(input('по возрастанию - True, по убыванию - False '))
         z = int(input('Стобцы - 1, Строки - 2'))
         print_matrix(sorts(matrix, z, dd))
     elif qq == 7:
