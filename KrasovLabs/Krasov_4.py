@@ -25,7 +25,7 @@ def podstroka(string):
     if position == -1:
         print('Подстрока в строке отсутствует')
     else:
-        print('Подсрока в строке присутствует, начиная с позиции ', position)
+        print('Подстрока в строке присутствует, начиная с позиции ', position)
 
 def alfavit(string):
     words = string.split(' ')
