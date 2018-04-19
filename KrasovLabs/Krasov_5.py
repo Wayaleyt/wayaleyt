@@ -1,2 +1,2 @@
 from math import *
-print (eval(input("Введите формулу: ")))
+print (eval(input("Введите выражение: ")))
